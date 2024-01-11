@@ -39,3 +39,9 @@ html {
     display: block;
     margin: auto;
   }
+  .banner {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
