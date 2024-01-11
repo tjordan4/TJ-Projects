@@ -32,9 +32,15 @@ html {
   }
   .games { 
     text-align: center;
+    justify-content: center;
 
   }
   .games img {
     display: block;
     margin: auto;
+  }
+
+  link {
+    color: white;
+    
   }
