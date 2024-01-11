@@ -3,8 +3,8 @@ html {
   }
   
   #Title {
-    color: red;
-    background-color: black;
+    color: darkred;
+    background-color: darkgray;
     font-family: fantasy;
     font-size: 40px;
     text-align: center;
@@ -38,9 +38,4 @@ html {
   .games img {
     display: block;
     margin: auto;
-  }
-
-  link {
-    color: white;
-    
   }
