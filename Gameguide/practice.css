@@ -9,7 +9,8 @@ html {
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
-  
+    text-decoration: bold;
+
   }
   
   #Intro {
@@ -43,5 +44,22 @@ html {
     height: 300px;
     justify-content: center;
     align-items: center;
-    image: center;
+    display: flex;
+  }
+
+  .criteria {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+    text-decoration: bold;
+    text-decoration: underline;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
   }
