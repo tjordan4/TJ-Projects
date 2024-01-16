@@ -4,12 +4,18 @@ html {
   
   #Title {
     color: darkred;
-    background-color: darkgray;
+    background-color: #262626;
     font-family: fantasy;
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
     text-decoration: bold;
+  }
+
+  nav {
+    background-color: #afccfa;
+    color: black;
+    display: inline-block;
 
   }
   
@@ -25,15 +31,20 @@ html {
     color: white;
   }
   
-  img {
-    height: 250px;
+  .cover-art {
+    height: 300px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 15px;
+
   }
   .games { 
     text-align: center;
     justify-content: center;
+    display: flex;
+    gap: 30px;
+    margin-top: 5em;
 
   }
   .games img {
@@ -48,18 +59,31 @@ html {
   }
 
   .criteria {
-    text-align: center;
-    font-size: 50px;
+    font-size: 30px;
+    background-color: 424242;
+    color: darkred;
+    font-family: fantasy;
+    border-radius: 20px;
+    display: inline-block;
+    
   }
   
   h2 {
     text-align: center;
     text-decoration: bold;
     text-decoration: underline;
+    font-size: 30px;
   }
   
   p {
     text-align: center;
-    font-size: 18px;
+    font-size: 21px;
     margin: auto;
+  }
+
+  a {
+    display: block;
+  }
+  .crit-area {
+    text-align: center;
   }
