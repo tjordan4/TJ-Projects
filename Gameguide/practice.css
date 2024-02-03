@@ -14,12 +14,20 @@ html {
   }
 
   nav {
-    background-color: #afccfa;
-    color: black;
-    display: inline-block;
-    font-size: 18px;
+    background-color: #262626;
+    color: darkred;
+    display: flex;
+    margin-right: 3.5rem;
+    margin-left: 110rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: .25rem;
+  }
 
-
+  .nav {
+    color: rgb(121, 28, 28);
   }
   
   #Intro {
@@ -61,6 +69,7 @@ html {
     align-items: center;
     display: flex;
     border-radius: 10px;
+    margin-top: 1rem;
   }
 
   .rating {
